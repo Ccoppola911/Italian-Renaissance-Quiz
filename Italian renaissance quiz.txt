@@ -1,0 +1,165 @@
+print("Welcome to my Italian Renaissance quiz!")
+
+playing = input("Do you want to play? ")
+
+if playing != "yes" :
+    quit()
+
+print("okay! Let's Play!!!!")
+score = 0 
+
+answer = input("Who is the italian author who wrote the book The Courtier in 1528 and described the ideal Renaissance man and woman? ")
+if answer == "Baldassare Castiglione":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What was the book written by Baldassare Castiglione about a practical guide for the nobility at the court of Urbino which embodies the highest ideals of italian humanism: knowledge of languages and history, athleticism, military skills, and chivalry? ")
+if answer == "Book of the Courtier":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was commonly known as, Donatello, a famous Florentine Italian Sculptor before Michelangelo who was one of the most influential individual artists of the 15th century in Italy and known for base-relief? ")
+if answer == "Donato di Niccolo di Bento Bardi":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was the famous Northern Renaissance artist that often used woodcutting along with italian Renaissance techniques like proportion perspective and modeling with projects including knight death, and devil; four apostles? ")
+if answer == "Albrecht Durer":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was known as the father of Renaissance humanism who lived from 1304-1374 as a cleric and committed his life to humanistic pursuits and careful study of the classics and resisted writing in the Italian Vernacular except for his sonnets, which were composed to his lady love who spoke no Latin? ")
+if answer == "Francesco Petrarch":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was the french humanist who lived 1494-1553 and was the author of Gargantua which made fun of the church using giants to represent the church instead of true monks there were swimming pools, maids, and no clocks? ")
+if answer == "Francois Rabelais":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was the french humanist who lived 1494-1553 and was the author of Gargantua which made fun of the church using giants to represent the church instead of true monks there were swimming pools, maids, and no clocks? ")
+if answer == "Francois Rabelais":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What was the series of religious wars of the 12th and 13th centuries that brought Europeans into contact with the much more sophisticated and learned muslim empire as well as heightened European interest in trade good from India and China? ")
+if answer == "The Crusades":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What was the epidemic disease of the 14th century that reduced the population of Europe between 30-60 percent leading to a drop in food prices and higher wages for workers? ")
+if answer == "The Black Death":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What was the geographic position between northwestern Europe and the Middle East that made it the natural meeting point between traders entering and leaving the continent which consisted of merchants, bankers, and shipbuilders that became extremely wealthy and poured their fortunes into the arts and architecture of the cities ? ")
+if answer == "Northern Italian Cities":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was the powerful banking family, that had bank branches in every major European city. They ruled the Italian city of Florence as a dictatorship, sponsored many of the best known Renaissance artists of where four members of the family would eventually become Pope, and they married into many of the most powerful royal families in Europe? ")
+if answer == "The Medici":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("what was the everyday language of ordinary people that many renaissance writers wrote like to make their work more accessible rather than writing in Latin, which required more education? ")
+if answer == "Vernacular":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Renaissance architect who designed St. Peter's Basilica? ")
+if answer == "Bramante":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("who was the writer best known for decameron, a series of realistice, humorous stories in which the sstories are supposedly told by a grroup of worldly young people waiting in a rural villa to avoid the plague sweeping through Florence? ")
+if answer == "Boccaccio":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was the famous sculptor and painter that sculpted Pieta and David, who painted the ceiling and walls of the Sistine Chapel, which is one of the most famous pieces of Renaissance art? ")
+if answer == "Michelangelo":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was the painter, writer, inventor, architect, engineer, mathematician, musician, and philosopher who painted the mona lisa and the last supper and studied human anatomy by dissecting human corpses and who also designed flying machines, armored tanks, and a machine gun? ")
+if answer == "Leonardo Da Vinci":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What was written as advice to a young ruller by Machiavelli who believed that the end justifies the means, which in the case of political ruler, the end is the power of the state and wht means are required to make the state powerful are justified and also tells us abbout successful rulers must seperate morals from politics and preserve their own power and the state through whatever means necessary, even it entails dishonesty, cruelty? ")
+if answer == "The Prince":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who was the painter and architect best known for the fresco the school of athens and the marriage of the virgin? ")
+if answer == "Raphael":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who believed in using their education for the benefit of their city-state? ")
+if answer == "secularists":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("Who were the people that came to believe that Roman and Greej Philosophers, though pagan, actually agreed with the church teachings, and believed that some used their knowledge to criticize important church doctrines or institutions that lacked biblical or historical support? ")
+if answer == "Christian Humanists":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What was the geographic position between northwestern Europe and the Middle East that made it the natural meeting point between traders entering and leaving the continent  which merchants, bankers, and shipbuilders here became extremely wealthy and poured their fortunes into the arts and architecture of the cities? ")
+if answer == "Northern Italian City-states":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("This is where artists were usually anonymous and worked exclusively for the church and was usually two dimensional and did not use perspective and employed a limited color palate and also the themes were almost entirely religious? ")
+if answer == "Medieval Art":
+    print('Correct!')
+    score += 1
+else:
+    print("Incorrect!")
+
+print("You got " + str(score) + " questions correct!")
